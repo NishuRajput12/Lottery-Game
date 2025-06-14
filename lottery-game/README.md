@@ -1,8 +1,23 @@
-# React + Vite
+# 🎟️ Lottery Game App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React app where you generate lottery tickets and check if you win based on a given condition.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Random ticket generation
+- Custom win conditions
+- React component-based architecture
+
+## 🛠️ Installation
+
+```bash
+npm install
+npm start
+📁 Folder Structure
+/src
+  ├── App.jsx
+  ├── LotteryGame.jsx
+  ├── Ticket.jsx
+  ├── TicketNum.jsx
+  ├── Helper.js
+  └── Button.jsx
